@@ -11,6 +11,9 @@ import { useNavigation } from '@react-navigation/native';
 import styles from './styles';
 import httpServices from '../../services/httpservices';
 import ScreenName from '../../constants/ScreenName';
+import { Image } from 'react-native';
+import Logo from '../../assets/logoAccevate.png';
+
 
 const LoginScreen = () => {
   const navigation = useNavigation();
@@ -55,6 +58,7 @@ const LoginScreen = () => {
 
   return (
     <View style={styles.container}>
+      <Image source={Logo} style={styles.logo} resizeMode="contain" />
       <View style={styles.card}>
         <Text style={styles.title}>Welcome Back 👋</Text>
         <Text style={styles.subtitle}>Login to continue to your dashboard</Text>

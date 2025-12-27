@@ -95,7 +95,7 @@ android {
         release {
       storeFile file('acceavte.keystore')
       storePassword '123456'
-      keyAlias 'accevate'
+      keyAlias 'acceavte'
       keyPassword '123456'
     }
     }

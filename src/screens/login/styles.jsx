@@ -57,6 +57,12 @@ const styles = StyleSheet.create({
     color: '#4F46E5',
     fontWeight: '600',
   },
+  logo: {
+  width: 160,
+  height: 80,
+  marginBottom: 20,
+},
+
 });
 
 export default styles;
